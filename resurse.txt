@@ -1,0 +1,9 @@
+CSS TUTORIAL: https://www.w3schools.com/css/default.asp
+HTML TUTORIAL: https://www.w3schools.com/html/
+Flask tutorial: https://flask.palletsprojects.com/en/2.3.x/quickstart/#a-minimal-application
+Flsk template inheritance: https://flask.palletsprojects.com/en/2.3.x/patterns/templateinheritance/
+Bootstrap CDN: https://www.bootstrapcdn.com/
+Bootstrap: https://getbootstrap.com/docs/5.0/components/navbar/
+Fontawesome CDN: https://cdnjs.com/libraries/font-awesome
+Fontawesome: https://fontawesome.com/search?q=user&o=r
+Free pictures: https://www.freepik.com
