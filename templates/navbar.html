@@ -1,0 +1,26 @@
+{% block navbar %}
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid container">
+    <a class="navbar-brand brand-logo" href="/">PYTA05 Pastry & Sweets</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="d-flex">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="/">Acasa</a>
+          <a class="nav-link active" aria-current="page" href="/products">Produse</a>
+          <a class="nav-link active" aria-current="page" href="#">Contact</a>
+          {% if user %}
+            <a class="nav-link" href="/"><i class="fa-solid fa-user"></i> {{ user }}</a>
+            <a class="nav-link" href="/logout">Logout</a>
+          {% else %}
+          <a class="nav-link" href="/login"><i class="fa-solid fa-user"></i></a>
+          {% endif %}
+          <a class="nav-link" href="#"><i class="fa-solid fa-basket-shopping"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+{% endblock %}
