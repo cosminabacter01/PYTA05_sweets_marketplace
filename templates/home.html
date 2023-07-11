@@ -1,4 +1,18 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Hello World</h1>
+<div class="container spaced-top-5">
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <h1 class="heading-title">Savoare delicata. Textura imaculata. Expresie unica.</h1>
+            </div>
+            <a href="/products">
+                <button class="btn-custom spaced-top-2">COMANDA AICI</button>
+            </a>
+        </div>
+        <div class="col">
+            {% include "carousel.html" %}
+        </div>
+    </div>
+</div>
 {% endblock %}
