@@ -1,0 +1,52 @@
+.heading-title {
+    color: #E3DDD2;
+    font-size: 88px;
+    font-weight: 700;
+    text-transform: none;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1em;
+    letter-spacing: -4px;
+}
+
+.spaced-top-5 {
+    margin-top: 5em;
+}
+
+.spaced-top-2 {
+    margin-top: 2em;
+}
+
+.btn-custom {
+    font-weight: bold;
+    background-color: #EF4056;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #EF4056;
+    color: #FFFFFF;
+}
+
+.btn-custom:hover {
+    background-color: #FFFFFF;
+    color: #EF4056;
+}
+
+.btn-custom-reverse {
+    font-weight: bold;
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: 2px solid #EF4056;
+    color: #EF4056;
+}
+
+.btn-custom-reverse:hover {
+    background-color: #EF4056;
+    color: #FFFFFF;
+}
+
+.brand-logo {
+    color: #822739;
+    font-size: 1.6em;
+    font-weight: bold;
+}

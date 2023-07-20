@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="card mb-3">
+  <img src="{{ url_for('static', filename=product.image) }}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{ product.name }} | <span class="text-success">Available: {{product.available_quantity}}</span></h5>
+    <h5 class="card-title text-danger">Price: {{ product.price }}</h5>
+    <p class="card-text"><p> {{product.description}}</p>
+    <p class="card-text"><p>Ingredients: {{product.ingredients}}</p>
+    <p class="card-text"><small class="text-muted">Weight: {{ product.weight_grams }} g</small></p>
+  </div>
+</div>
+
+</div>
+{% endblock %}

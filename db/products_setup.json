@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cheescake",
+    "description": "Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest, layer consists of a mixture of a soft, fresh cheese (typically cottage cheese, cream cheese, quark or ricotta), eggs, and sugar.",
+    "ingredients": "cheese, eggs, sugar, flour, jam",
+    "price": 15.99,
+    "weight_grams": 200,
+    "available_quantity": 5,
+    "image": "images/cheesecake.jpg"
+  },
+  {
+    "name": "Chocolate Cookies",
+    "description": "A cookie is a small sweet, crispy or cake-like pastry most often made with flour, sugar, liquid and fat. They are characterized by: High sugar content. High fat content.",
+    "ingredients": "flour, butter, eggs, chocolate chips",
+    "price": 8.49,
+    "weight_grams": 50,
+    "available_quantity": 100,
+    "image": "images/cookie.jpg"
+  },
+  {
+    "name": "Croissant",
+    "description": "A croissant is a laminated, yeast-leavened bakery product that contains dough/roll-in fat layers to create a flaky, crispy texture.",
+    "ingredients": "butter, flour, water, salt",
+    "price": 3.89,
+    "weight_grams": 70,
+    "available_quantity": 15,
+    "image": "images/croissant.jpg"
+  },
+  {
+    "name": "Strawberry filled donuts",
+    "description": "Doughnuts are a kind of ring-shaped snack food popular in many countries, which are usually deep fried from flour doughs.",
+    "ingredients": "strawberry jam, flour, eggs, milk, yeast",
+    "price": 2.99,
+    "weight_grams": 50,
+    "available_quantity": 25,
+    "image": "images/donut.jpg"
+  }
+]

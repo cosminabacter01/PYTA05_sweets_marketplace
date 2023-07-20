@@ -1,4 +1,28 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Lista produse</h1>
+<div class="container">
+    <div class="row">
+        {% for product in products %}
+        <div class="col-6 my-4">
+            <div class="card" >
+            <img class="my-2" src="{{ url_for('static', filename=product.image) }}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">{{ product.name }}</h5>
+                <p class="card-text"> {{ product.description }}</p>
+                <p class="card-text">Pret: {{ product.price }} euro</p>
+                <a href="/products/{{ product.id }}">
+                    <button class="btn-custom spaced-top-2">Vezi detalii</button>
+                </a>
+                {% if user %}
+                <a href="#">
+                    <button class="btn-custom-reverse spaced-top-2">Adauga in cos</button>
+                </a>
+                {% endif %}
+            </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+
+</div>
 {% endblock %}

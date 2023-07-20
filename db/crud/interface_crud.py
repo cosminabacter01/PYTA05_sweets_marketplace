@@ -1,3 +1,6 @@
+"""
+Abstract class with DB CRUD abstract methods
+"""
 from abc import ABC, abstractmethod
 
 from db.db_connection import get_db_connection
@@ -9,18 +12,17 @@ class CrudABC(ABC):
         self.connection = get_db_connection()
 
     @abstractmethod
-    def read(self, *args, **kwargs):
+    def create(self, entry_to_create):
         pass
 
     @abstractmethod
-    def create(self, *args, **kwargs):
+    def read(self, id=None):
         pass
 
     @abstractmethod
-    def update(self, *args, **kwargs):
+    def update(self, entry_for_update):
         pass
 
     @abstractmethod
-    def delete(self, *args, **kwargs):
+    def delete(self, id):
         pass
-
